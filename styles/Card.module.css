@@ -1,0 +1,32 @@
+.cardImage {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+.cardComponent {
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 1s;
+  }
+
+.cardComponent:hover {
+    
+    transform: scale(1.25);
+  }
+
+.cardInfoText {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 14px;
+  }
+
+.cardTitle {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+

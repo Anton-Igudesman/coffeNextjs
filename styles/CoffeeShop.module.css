@@ -1,0 +1,25 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContainer {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homeButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.storeImage {
+    border-radius: 10px;
+}
